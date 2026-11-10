@@ -5,7 +5,6 @@ Platform and infrastructure automation engineer. I build the infrastructure othe
 **Selected work**
 
 - [infra](https://github.com/jpcuckovi/infra): Ansible provisioning of a bare-metal lab estate, from kubeadm HA with Cilium and Longhorn to the shared registry and observability stack.
-- [nightlabs.unifi](https://github.com/nightlabs-io/ansible-collection-unifi): an Ansible collection for the official UniFi Network Integration API, built in the open under NightLabs. Early stage: read-only site and device modules, with site lookup by UUID, internal reference or name.
 - [netbox-intent](https://github.com/jpcuckovi/netbox-intent): a network configured from a source of truth. NetBox holds the intent, Jinja2 renders each switch, and a gNMI push with commit-confirmed applies it to a Nokia SR Linux lab, verifies the whole network, and rolls back if anything fails.
 - [vault-fargate-aurora](https://github.com/jpcuckovi/vault-fargate-aurora): HashiCorp Vault in high availability on AWS, with ECS Fargate, Aurora PostgreSQL and multi-region KMS.
 - [pygnmi](https://github.com/jpcuckovi/pygnmi): a maintained fork of the pure-Python gNMI client.
